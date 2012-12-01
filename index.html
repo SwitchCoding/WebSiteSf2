@@ -8,6 +8,7 @@
         <script type="text/javascript" src="commons/js/cufon-yui.js"></script>
         <script type="text/javascript" src="commons/js/Helvetica_Neue_LT_Std_750.font.js"></script>
         <script type="text/javascript" src="commons/js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="commons/js/jquery.nivo.slider.js"></script>
     </head>
     <body>
         <header id="page_header">
@@ -23,11 +24,15 @@
                 </ul>
             </nav>
         </header>
-        <div id="slider_wrapper">
+        <div id="slider-wrapper">
             <ul>
-                <li><img src="commons/images/Slide1.jpg" alt=""/></li><!--
-             --><li><img src="commons/images/Slide2.jpg" alt=""/></li><!--
-             --><li><img src="commons/images/Slide3.jpg" alt="" title="Sous-titre si tu veux"/></li>
+                <li>
+                    <div id="slider" class="nivoSlider">
+                        <img src="commons/images/Slide1.jpg" alt=""/>
+                        <img src="commons/images/Slide2.jpg" alt=""/>
+                        <img src="commons/images/Slide3.jpg" alt=""/>
+                    </div>
+                </li>
             </ul>
         </div>
         <div id="body">
@@ -46,6 +51,12 @@
         </footer>
         <script type="text/javascript">
             Cufon.replace("#page_header nav ul li, #welcome h1");
+            
+            $(window).load(function() {
+                $('#slider').nivoSlider({
+                    effect: 'fade',
+                });
+            });
         </script>
     </body>
 </html>

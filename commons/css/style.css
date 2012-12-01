@@ -63,7 +63,7 @@ body
     -ms-transition: top ease-in-out .5s;
 }
 #page_header nav ul li:last-child { margin-right: 0; }
-#slider_wrapper
+#slider-wrapper
 {
     background-color: #bd1818;
     text-align: center;
@@ -71,7 +71,7 @@ body
     height: 600px;
     overflow: hidden;
 }
-#slider_wrapper ul
+#slider-wrapper ul
 {
     margin: 0;
     list-style: none;
@@ -81,7 +81,7 @@ body
     overflow: hidden;
     display: inline-block;
 }
-#slider_wrapper li
+#slider-wrapper li
 {
     display: inline;
     height: 600px;
@@ -129,3 +129,16 @@ body
 }
 #page_footer p { margin: 0 0 10px; }
 #page_footer p:last-child { margin-bottom: 0; }
+
+#slider{
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+#slider img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
