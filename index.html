@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>{SwitchCoding}</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Site officiel de la team {SwitchCoding}" />
+        <link rel="stylesheet" type="text/css" href="commons/css/style.css" />
+        <script type="text/javascript" src="commons/js/cufon-yui.js"></script>
+        <script type="text/javascript" src="commons/js/Helvetica_Neue_LT_Std_750.font.js"></script>
+        <script type="text/javascript" src="commons/js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider({
+                    pauseTime: 5000,
+                    boxCols: 8,
+                    boxRows: 4,
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <header id="page_header">
+            <div id="page_header_logo">
+                <a href="index.html"><h1>{SwitchCoding}</h1></a>
+            </div><!--
+         --><nav>
+                <ul>
+                    <li>Accueil</li>
+                    <li>Nos projets</li>
+                    <li>A propos de nous</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slider_wrapper">
+            <ul>
+                <li><img src="commons/images/Slide1.jpg" alt=""/></li><!-- -->
+                <li><img src="commons/images/Slide2.jpg" alt=""/></li><!-- -->
+                <li><img src="commons/images/Slide3.jpg" alt="" title="Sous-titre si tu veux"/></li>
+            </ul>
+        </div>
+        <div id="body">
+            <div id="center">
+                <section>
+                    <article>
+                        <p>Petit test sans prétention.</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <footer id="page_footer">
+            <div id="page_footer_content">
+                <div id="page_footer_logo"><h1>{SwitchCoding}</h1></div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            Cufon.replace("#page_header nav ul li, #welcome h1");
+        </script>
+    </body>
+</html>
