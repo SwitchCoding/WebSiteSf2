@@ -1,11 +1,11 @@
-SwitchCoding
+WebSiteSf2
 ============
 
-Bienvenue dans le dépôt GitHub de la team **SwitchCoding**.
+Bienvenue dans le dépôt GitHub du site de la team **SwitchCoding**.
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-Projets en cours de développement :
------------------------------------
-
-* Site internet de la team.
+- **commons**, dossier contenant tous les médias nécessaires au bon fonctionnement du site ;
+- **commons/js**, dossier contenant tous les scripts du site ;
+- **commons/css**, dossier contenant tous les styles CSS ;
+- **commons/images**, dossier contenant toutes les images du site.
